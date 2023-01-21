@@ -17,7 +17,8 @@ Stack used : MongoDB + Mongoose, Node.js, Express.js
  - **routes** : holds routes for user, group and messages
 
 ## Schema Design
-All required feilds throw a customised error if a certain property is not provided at the time of creation and saving in DB, using the 
+All required feilds throw a customised error if a certain property is not provided at the time of creation and saving in DB, using the message attribute.
+
 **User**
 
  - _id 
